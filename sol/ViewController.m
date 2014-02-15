@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Pano.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [Pano PixelPositionAndColorTest];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
